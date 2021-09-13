@@ -5,6 +5,8 @@ An Azure function is also set in a way that executes an action everytime the IoT
 
 In our case, the Azure function will be sending and email everytime the Raspberry Pi sends telemetry data to the Azure IoT Hub if a given conditions are met (a sensor detects something)
 
+The script used in the Raspberry Pi is been inspired by the following repository: https://github.com/jimbobbennett/Raspberry-Pi-And-Azure-IoT-Hub
+
 ## Block diagram
 
 ![image](https://user-images.githubusercontent.com/10405193/133066918-ed804b08-0b1e-4b9c-a86c-7f437fc3d2e0.png)
