@@ -53,7 +53,7 @@ Also, to have the Azure function connected with the IoT Hub we should use the **
 
 ![image](https://user-images.githubusercontent.com/10405193/133064707-fb0ab869-2ee8-4681-91c7-2289a27a2a42.png)
 
-This must copied in the code wherever **EVENT_HUB_ENDPOINT** appears.
+This must copied in the **local.settings.json** in the value of the **"ConnectionString** property in the Azure function code.
 
 ## Twin device communication
 
